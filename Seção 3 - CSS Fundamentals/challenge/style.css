@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.product {
+    border: 5px solid black;
+    width: 825px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sale {
+    background-color: #ec2f2f;
+    display: inline-block;
+    color: #fff;
+    padding: 7px 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+}
+
+.product-title {
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 0 15px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shipping {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.more-info {
+    text-decoration: underline;
+    color: black;
+}
+
+.more-info:hover {
+    text-decoration: none;
+}
+
+.square {
+    display: block;
+}
+
+
+.color {
+    background-color: #000;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .color-blue {
+    background-color: #2f6ee2;
+  }
+  .color-red {
+    background-color: #ec2f2f;
+  }
+  .color-yellow {
+    background-color: #f0bf1e;
+  }
+  .color-green {
+    background-color: #90cc20;
+  }
+  .color-brown {
+    background-color: #885214;
+  }
+
+
+
+.details-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.details-list li {
+    list-style: square;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.add-cart {
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 825px;
+    height: 60px;
+}
+
+.add-cart:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    border-top: 5px solid black;
+}
